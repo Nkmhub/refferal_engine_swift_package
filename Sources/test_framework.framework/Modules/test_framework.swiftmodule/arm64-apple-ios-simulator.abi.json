@@ -1,0 +1,91 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "test_framework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PhoneNumberKit",
+        "printedName": "PhoneNumberKit",
+        "declKind": "Import",
+        "moduleName": "test_framework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PhoneNumberFormatter",
+        "printedName": "PhoneNumberFormatter",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PhoneNumberFormatter",
+                "printedName": "test_framework.PhoneNumberFormatter",
+                "usr": "s:14test_framework20PhoneNumberFormatterC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14test_framework20PhoneNumberFormatterCACycfc",
+            "mangledName": "$s14test_framework20PhoneNumberFormatterCACycfc",
+            "moduleName": "test_framework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "formatAndPrintPhoneNumber",
+            "printedName": "formatAndPrintPhoneNumber(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14test_framework20PhoneNumberFormatterC014formatAndPrintcD0yySSF",
+            "mangledName": "$s14test_framework20PhoneNumberFormatterC014formatAndPrintcD0yySSF",
+            "moduleName": "test_framework",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14test_framework20PhoneNumberFormatterC",
+        "mangledName": "$s14test_framework20PhoneNumberFormatterC",
+        "moduleName": "test_framework",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
